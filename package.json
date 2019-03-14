@@ -1,0 +1,19 @@
+{
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "Curso básico de TYPESCRIPT",
+    "main": "Modules/index.html",
+    "dependencies": {
+        "systemjs": "^0.19.41"
+    },
+    "devDependencies": {
+        "lite-server": "^2.4.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "Modules/index.html",
+        "dev": "lite-server --baseDir = './Modules'"
+    },
+    "author": "Juan X.",
+    "license": "ISC"
+}
